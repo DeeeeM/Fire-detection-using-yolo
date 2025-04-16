@@ -1,0 +1,13 @@
+train: /kaggle/input/fire-detection-using-yolo8/Attempt n2/fire_dataset/train
+val: /kaggle/input/fire-detection-using-yolo8/Attempt n2/fire_dataset/Valid
+test: #../test/images
+
+nc: 3
+names: ['fire', 'other', 'smoke']
+
+# roboflow:
+#   workspace: fire-dataset-tp9jt
+#   project: fire-detection-sejra
+#   version: 1
+#   license: CC BY 4.0
+#   url: https://universe.roboflow.com/fire-dataset-tp9jt/fire-detection-sejra/dataset/1
